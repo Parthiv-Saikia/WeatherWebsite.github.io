@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+height: 100vh;
+background: linear-gradient(to top left, #009FFD, white) no-repeat;    
+overflow: hidden;
+}
+
+
+#search-button{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 8px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 15px;
+    transition: all 0.4s ease 0s;
+     cursor: pointer; 
+     
+    
+}
+#search-button:hover{
+    color: white;
+    background: red;
+    border-color: red;
+    transition: all 0.4s ease 0s;
+
+}
+
+#search-input{
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid black;
+    color: black;
+    outline: none;
+    background: none;
+}
+input{
+    border: none;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+#temp{
+    text-align: center;
+    
+}
+
+
+#temp #temp-unit{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#temp #temp-value{
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+#climate{
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+#location{
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+ 
+#temp-icon{
+    margin: 1rem;
+    border-radius: 8px;
+    height: auto;
+    width: 18%;
+    
+} 
+
+
+main{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #6b778d;
+    border-radius: 20px;
+    width: 380px;
+    height: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112,102,102,0.4);
+    transition: .5s all;
+}
